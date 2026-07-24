@@ -150,10 +150,29 @@ HERO SECTION
     font-size:15px;
 }
 
-.hero h1{
-    font-size:72px;
-    line-height:1.1;
-    margin:20px 0;
+.hero-title{
+    display:flex;
+    flex-direction:column;
+    font-family:'Playfair Display', serif;
+    font-size:76px;
+    line-height:0.95;
+    font-weight:700;
+    text-transform:uppercase;
+    color:#fff;
+    letter-spacing:1px;
+    margin:20px 0 30px;
+}
+
+.hero-title span{
+    display:block;
+}
+
+.hero-title .gold{
+    color:#C8A96A;
+    font-style:italic;
+    font-weight:500;
+    text-transform:none;
+    letter-spacing:2px;
 }
 
 .hero p{
@@ -672,8 +691,17 @@ FOOTER
     padding:150px 0 100px;
 }
 
-.hero h1{
-    font-size:38px;
+@media (max-width:768px){
+
+.hero-title{
+    font-size:42px;
+    line-height:1;
+}
+
+.hero-title .gold{
+    font-size:40px;
+}
+
 }
 
 .hero p{
