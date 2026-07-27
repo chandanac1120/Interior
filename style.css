@@ -825,3 +825,13 @@ FLOATING BUTTONS
     }
 
 }
+.floating-buttons{
+        right:15px;
+        bottom:15px;
+    }
+
+    .floating-buttons a{
+        width:55px;
+        height:55px;
+        font-size:22px;
+    }
