@@ -9,6 +9,8 @@ window.addEventListener("scroll", function () {
     }
 });
 
+
+
 // Mobile Menu
 const menuToggle = document.querySelector(".menu-toggle");
 const navMenu = document.querySelector(".nav-menu");
